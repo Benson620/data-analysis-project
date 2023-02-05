@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chill Chill Beauty</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Chill Chill Beauty</b></h1>
+    <h7>Welcome to the blog of <span class="w3-tag">Chill Chill</span></h7>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="file:///Users/linhongteng/Desktop/chill%20chill%20beauty_HTML/Christian-Dior-Jasmin-Des-Anges-at-senseorient-2048x1365.jpeg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Beauty</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>FASHION BLOG</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Flowerhead Eau de Parfum</h3>
+          <h5> Byredo <span class="w3-opacity">January 3, 2023</span></h5>
+        </div>
+        <div class="w3-justify">
+          <a href="https://www.byredo.com/eu_en/flowerhead-eau-de-parfum-50ml"><img src="file:///Users/linhongteng/Desktop/chill%20chill%20beauty_HTML/Byredo-Flowerhead-Eau-de-Parfum-.jpeg" alt="screen_02" style="width:100%" class="w3-padding"></a>
+          <p><strong>What a lovely time!</strong> nspired by the lush jaimala garlands exchanged between brides and grooms at traditional Indian weddings, this musky, sweet floral marries depth and brightness. It features a dynamic blend of jasmine, Sicilian lemon, and lingonberry offset by a burst of tuberose and rose petals.</p>
+         <!-- two different ways for the onclick button -->
+          <h6><buton class="w3-button w3-border w3-white w3-opacity w3-hover-opacity-off" onclick="document.getElementById('Like').style.display='block'"><i class="fa fa-thumbs-up"></i> Like</button></buton></h6>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-25%20%E4%B8%8B%E5%8D%889.56.08.png" style="width:100px">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Nicole <span class="w3-opacity w3-medium">January 10, 2023, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Bloom Eau de Parfum</h3>
+          <h5>Gucci <span class="w3-opacity">December 12, 2022</span></h5>
+        </div>
+    
+        <div class="w3-justify">
+          <a href="https://www.gucci.com/us/en/pr/gifts/gifts-for-women/gucci-bloom-100ml-eau-de-parfum-p-488830999990099"><img src="file:///Users/linhongteng/Desktop/chill%20chill%20beauty_HTML/Gucci-Bloom-Eau-de-Parfum-.jpeg" alt="Men in Hats" style="width:100%" class="w3-padding-16"></a>
+          <p><strong>Feel elegant and fresh all year round!</strong></p>
+          <p>Gucci Bloom Eau de Parfum is a sophisticated fragrance that captures the scent of jasmine. It has notes of rangoon creeper, jasmine bud, and tuberose. The bottle design is reminiscent of a flower bud opening to reveal its petals–a symbol for the blooming process from start to finish.
+          </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black w3-border" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row w3-margin-bottom">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-25%20%E4%B8%8B%E5%8D%8811.36.45.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Sherry <span class="w3-opacity w3-medium">December 25, 2022, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best!</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-25%20%E4%B8%8B%E5%8D%8811.37.24.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Abby <span class="w3-opacity w3-medium">December 28, 2022, 11:32 PM</span></h4>
+                <p>Love it!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Jasmin 17 Eau de Parfum</h3>
+          <h5>Le Labo <span class="w3-opacity">Octomber 5, 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <a href="https://www.lelabofragrances.com/jasmin-17-137.html"><img src="file:///Users/linhongteng/Desktop/chill%20chill%20beauty_HTML/Le-Labo-Jasmin-17-Eau-de-Parfum.jpeg" alt="Runway" style="width:100%" class="w3-padding-16"></a>
+          <p><strong>All worries fade away</strong></p>
+          <p>It combines everything we love about a classic floral with a contemporary twist. It reveals an intoxicating mix of bitter orange, jasmine, and musk, along with sandalwood and vanilla for a deliciously creamy finish. The scent is particularly long-wearing, making it a great option for a night out. It is one of the best jasmine perfumes in the world and it’s perfect for any occasion. </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-heart"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8A%E5%8D%8811.17.20.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anna <span class="w3-opacity w3-medium">Octomber 10, 2022, 7:22 PM</span></h4>
+                <p>Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8A%E5%8D%8811.18.03.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Irene <span class="w3-opacity w3-medium">Octomber 12, 2022, 5:20 PM</span></h4>
+                <p>Amazing!!</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8A%E5%8D%8811.18.17.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Mei <span class="w3-opacity w3-medium">Octomber 14, 2022, 9:34 PM</span></h4>
+                <p>Cant wait for the runway to start!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="file:///Users/linhongteng/Desktop/chill%20chill%20beauty_HTML/eec82d902371a67ca43eb72916ebdbb8.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>Chill Chill</h4>
+          <p>The latest fashion news, beauty coverage, celebrity style, fashion week updates, culture reviews, and videos on Chill Chill Beauty.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Popular Posts</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8A%E5%8D%8811.47.17.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Jo Malone</span>
+            <br>
+            <span>Jasmine Sambac & Marigold Cologne Intense
+            </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8A%E5%8D%8811.47.28.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Aerin Ikat Jasmine</span>
+            <br>
+            <span>Eau de Parfum</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8A%E5%8D%8811.47.44.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Jasmine Neroli</span>
+            <br>
+            <span>Eau de Parfum</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8B%E5%8D%8812.08.11.png" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px;">
+            <span class="w3-large">Amouage Ashore</span>
+            <br>
+            <span>Eau de Parfum</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle">Your AD Here</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Paris</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Fragrance</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Beauty</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Luxury</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Women</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Lifestyle</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col m6">
+            <p><img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8B%E5%8D%8812.43.53.png" alt="Jeans" style="width:100%"></p>
+            <p><img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8B%E5%8D%8812.44.22.png" alt="Jeans" style="width:100%"></p>
+
+          </div>
+          <div class="w3-col m6">
+            <p><img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8B%E5%8D%8812.44.32.png" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="file:///Users/linhongteng/Desktop/%E6%88%AA%E5%9C%96%202022-12-26%20%E4%B8%8B%E5%8D%8812.44.43.png" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='none'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
+</footer>
+
+<script>
+    // Toggle between hiding and showing blog replies/comments
+    document.getElementById("myBtn").click();
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    
+    function likeFunction(x) {
+      x.style.fontWeight = "bold";
+      x.innerHTML = "✓ Liked";
+    }
+    </script>
+
+</body>
+</html>
